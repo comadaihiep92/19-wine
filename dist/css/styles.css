@@ -1,23 +1,70 @@
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
 body {
-  color: yellow;
-  background: black;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 p {
-  display: inline-block;
-  width: 600px;
-  height: 200px;
-  color: white;
-  background: yello;
-  text-align: left;
-  line-height: 200px;
-  text-emphasis: none;
+  margin: 0;
 }
 
-h1 {
-  color: yellow;
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle;
 }
 
-h3 {
-  color: #111010;
+textarea {
+  resize: none;
+}
+
+section {
+  position: relative;
+}
+
+input,
+select,
+button {
+  outline: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
 }
