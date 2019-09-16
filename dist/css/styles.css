@@ -68,3 +68,7 @@ button {
   max-width: 1024px;
   width: 100%;
 }
+
+body {
+  background: orangered;
+}
