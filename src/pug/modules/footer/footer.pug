@@ -2,18 +2,21 @@ include ../../utils/mixins
 // footer
 .footer
     .footer__list
+        // footer item 1
         .footer__item
             +footerMenu(
                 "Thông tin",
                 [ "Về chúng tôi", "Giao hàng", "Cảm nghĩ", "Lưu trữ", "Chính sách riêng tư" ],
                 "#"
             )
+        // footer item 2
         .footer__item
             +footerMenu(
                 "Mua hàng",
                 [ "Vận chuyển và Trả hàng", "Mua hàng an toàn", "Vận quốc tế", "Liên kết", "Dịch vụ giảm giá" ],
                 "#"
             )
+        // footer item 3
         .footer__item
             h1.footer__title Gửi email
             .footer__menu
@@ -27,6 +30,7 @@ include ../../utils/mixins
                     img(src="../dist/images/icon-w.png", alt="w" class="footer__social-link")
                     img(src="../dist/images/icon-in.png", alt="in" class="footer__social-link")
                     img(src="../dist/images/icon-wi.png", alt="wi" class="footer__social-link")
+        // footer item 4
         .footer__item
             h1.footer__title Liên hệ
             img(src="../dist/images/icon-address.png", alt="addres")
