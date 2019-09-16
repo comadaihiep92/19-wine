@@ -1,0 +1,23 @@
+body {
+  color: yellow;
+  background: black;
+}
+
+p {
+  display: inline-block;
+  width: 600px;
+  height: 200px;
+  color: white;
+  background: yello;
+  text-align: left;
+  line-height: 200px;
+  text-emphasis: none;
+}
+
+h1 {
+  color: yellow;
+}
+
+h3 {
+  color: #111010;
+}
