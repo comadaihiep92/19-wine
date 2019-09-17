@@ -1,10 +1,31 @@
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url(./fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'UTM-Aquarelle';
+  src: url(./fonts/UTM-Aquarelle.ttf);
+}
+
+@font-face {
+  font-family: 'UVF-Didot';
+  src: url(./fonts/UVF-Didot.ttf);
+}
+
+@font-face {
+  font-family: 'Times-New-Roman';
+  src: url(./fonts/times.ttf), url(./fonts/timesbd.ttf), url(./fonts/timesbi.ttf), url(./fonts/timesi.ttf);
+}
+
 html {
-  font-size: 16px;
+  font-size: 62.5%;
   height: 100%;
 }
 
 body {
   height: 100%;
+  font-family: "Times-New-Roman", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,8 +88,4 @@ button {
   margin: 0 auto;
   max-width: 1024px;
   width: 100%;
-}
-
-body {
-  background: orangered;
 }
